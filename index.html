@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Nunito+Sans">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="text/javascript" src="index.js"></script>
+  <title>rest-countries-api</title>
+</head>
+
+<body  onload="remove_light_mode_link()">
+  <div class="navbar" id="navbar">
+    <div class="bar">
+      <h3 id="barh3">Where in the world?</h3>
+    </div>
+      <a href="#" id="darkmode" onclick="darkmode()" ><i class="far fa-moon"></i> Dark Mode</a>
+      <a href="#" id="lightmode" onclick="lightmode()" ><i class="far fa-sun"></i> Light Mode</a>
+  </div>
+  <section>
+    <div class="outerbar">
+      <div class="searchbar"><i class="search fas fa-search"></i><input class="bar2" type="search" placeholder="search"></div>
+    </div>
+  <select  name="Region" required>
+    <option value="" disabled selected>Filter By Region</option>
+    <option value="">Africa</option>
+    <option value="">America</option>
+    <option value="">Asia</option>
+    <option value="">Europe</option>
+    <option value="">Oceania</option>
+  </select>
+  </section>
+  <section>
+    <div class="grid-container">
+      <a href="index2.html">
+        <div class="grid-item" id="gridbox8">
+          <img src="images/german.png" alt="Germany flag">
+          <h5>Germany</h5>
+          <p><span><strong>Populaton:</strong></span> 81,770,900</p>
+          <p><span><strong>Region:</strong></span> Europe</p>
+          <p class="capital"><span><strong>Capital:</strong></span> Berlin</p>
+        </div>
+      </a>
+      <a href="index1.html">
+        <div class="grid-item" id="gridbox7">
+          <img src="images/usa.png" alt="USA flag">
+          <h5>United States of America</h5>
+          <p><span><strong>Populaton:</strong></span>323,947,000</p>
+          <p><span><strong>Region:</strong></span> Americas</p>
+          <p class="capital"><span><strong>Capital:</strong></span> Washington, DC</p>
+        </div>
+      </a>
+      <a href="index3.html">
+        <div class="grid-item" id="gridbox1">
+          <img src="images/brazil.jpg" alt="Brazil flag">
+          <h5>Brazil</h5>
+          <p><span><strong>Populaton:</strong></span>206,135,893</p>
+          <p><span><strong>Region:</strong></span>Americas</p>
+          <p class="capital"><span><strong>Capital:</strong></span> Brasllia</p>
+        </div>
+      </a>
+      <a href="index4.html">
+        <div class="grid-item" id="gridbox2">
+          <img src="images/iceland.jpg" alt="Iceland flag">
+          <h5>Iceland</h5>
+          <p><span><strong>Population:</strong></span>334,300</p>
+          <p><span><strong>Region:</strong></span> Europe</p>
+          <p><span><strong>Capital:</strong></span>Rekjavik</p>
+        </div>
+      </a>
+      <a href="index5.html">
+        <div class="grid-item" id="gridbox3">
+          <img src="images/afghanistan.jpg" alt="Afghanistan flag">
+          <h5>Afghanistan</h5>
+          <p><span><strong>Population:</strong></span>27,657,145</p>
+          <p><span><strong>Region:</strong></span> Asia</p>
+          <p class="capital"><span><strong>Capital:</strong></span> Kabul</p>
+        </div>
+      </a>
+      <a href="index6.html">
+        <div class="grid-item" id="gridbox4">
+          <img src="images/aland.png" alt="">
+          <h5>Aland slands</h5>
+          <p><span><strong>Population:</strong></span> 27,875</p>
+          <p><span><strong>Region:</strong></span> Europe</p>
+          <p><span><strong>Capital:</strong></span> Mariehamn</p>
+        </div>
+      </a>
+      <a href="index7.html">
+        <div class="grid-item" id="gridbox5">
+          <img src="images/albana.jpg" alt="Albania flag">
+          <h5>Albania</h5>
+          <p><span><strong>Population:</strong></span>2,886,026</p>
+          <p><span><strong>Region:</strong></span>Europe</p>
+          <p><span><strong>Capital:</strong></span>Tirana</p>
+        </div>
+      </a>
+
+      <a href="index8.html">
+        <div class="grid-item" id="gridbox6">
+          <img src="images/algeria.jpg" alt="Algeria flag">
+          <h5>Algeria</h5>
+          <p><span><strong>Populaton:</strong></span> 40,400,000</p>
+          <p><span><strong>Region:</strong></span> Africa</p>
+          <p class="capital"><span><strong>Capital:</strong></span> Algiers</p>
+        </div>
+      </div>
+      </a>
+
+  </section>
+</body>
+
+</html>
